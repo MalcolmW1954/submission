@@ -1,0 +1,33 @@
+Getting and Cleaning Data-015 Course Project CODEBOOK file
+
+Important note: The starting point for this project, and the associated
+run_analysis.R program, is the README.TXT file supplied with the UCI HAR
+Dataset.  This Codebook should be read in conjunction with that, and is not
+intended to repeat information contained within that file.
+
+
+The file Output.txt is a 180 x 8 table output of a tidy data frame.  It
+contains an activity column, listing the six activities covered by the
+analysis, and for each activity, the average measured performance by each
+of 30 subjects on the six variables of interest.
+
+It is therefore a "tidy" data set, with each activity/ subject/ observation
+on its own row, and each variable in a separate column.
+
+Activity: "WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING",
+"STANDING", and "LAYING", as appropriate.
+
+Subject: One of 1 to 30.
+
+Variable 1: Mean of subject performances for "tBodyAcc-mean()-X" variable.
+
+Variable 2: Mean of subject performances for "tBodyAcc-mean()-Y" variable.
+
+Variable 3: Mean of subject performances for  "tBodyAcc-mean()-Z" variable.
+
+Variable 4: Mean of subject performances for "tBodyAcc-std()-X" variable.
+
+Variable 5: Mean of subject performances for "tBodyAcc-std()-Y" variable.
+
+Variable 6: Mean of subject performances for "tBodyAcc-std()-Z" variable.
+
